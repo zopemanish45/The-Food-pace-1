@@ -1,0 +1,440 @@
+html,body {
+    height: 100%;
+    width: 100% ;
+}
+
+a {
+    text-decoration: none;
+    padding: 4px;
+
+    color: black;
+}
+
+a:hover {
+    color: white;
+    background-color: bisque;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    height: 12%;
+    z-index: 1;
+    width: 100%;
+}
+
+.ff{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+   
+}
+
+
+.brown {
+    background-color: burlywood;
+}
+
+.background {
+
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)),url('Bg_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-center {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 70px;
+
+
+}
+
+.par1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.text-color {
+    color: white;
+    border: 1px solid bisque;
+    margin-right: 60px;}
+
+.bg4-image {
+    box-shadow: -10px -10px #deb887;
+
+}
+
+.bg4-padding {
+    padding-left: 30px;
+}
+
+.clr-bisque {
+    color: orange;
+}
+
+.little-center {
+    text-align: center;
+    margin-top: -12px;
+
+}
+
+.sub-heading {
+    font-size: 9px;
+    text-align: center;
+}
+
+.text-colored {
+    color: black;
+    border: 1px solid bisque;
+    margin-right: 20px;
+
+}
+
+.fixed-image {
+    height: 80%;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)),url('Bg_5.jpg');
+    background-position: center;
+    height: 30%;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+     z-index:-1;
+}
+
+.quote{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+ 
+
+.text-right{
+    text-align: right;
+}
+
+.special-menu{
+    height: 50%;
+    width: 100;
+}
+
+.bounds{
+    width: 35%;
+    height: 10em;
+    transition: all linear 1s;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:500px) {
+    .bounds{
+        width: 50%;
+        height: 25em;
+     
+    }
+    
+}
+
+.spl{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.lorem{
+    text-align: center;
+    margin-top: -30px;
+}
+
+.buttons{
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.box{
+    width: 40%;
+    margin: auto;
+}
+
+.Drink-1{
+    background-image: linear-gradient(0deg,rgba(204,156,92,0.7),rgba(204,156,92,0.9)),url('Drinks_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Drink-2{
+    background-image: linear-gradient(0deg,rgba(204,156,92,0.7),rgba(204,156,92,0.9)),url('Drinks_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Drink-3{
+    background-image: linear-gradient(0deg,rgba(204,156,92,0.7),rgba(204,156,92,0.9)),url('Drinks_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Lunch-1{
+    background-image: linear-gradient(0deg,rgba(204,156,92,0.7),rgba(204,156,92,0.9)),url('Lunch_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.Lunch-2{
+    background-image: linear-gradient(0deg,rgba(204,156,92,0.7),rgba(204,156,92,0.9)),url('Lunch_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.Lunch-3{
+    background-image: linear-gradient(0deg,rgba(204,156,92,0.7),rgba(204,156,92,0.9)),url('Lunch_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.Dinner-1{
+    background-image: linear-gradient(0deg,rgba(204,156,92,0.7),rgba(204,156,92,0.9)),url('Dinner_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.Dinner-2{
+    background-image: linear-gradient(0deg,rgba(204,156,92,0.7),rgba(204,156,92,0.9)),url('Dinner_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.Dinner-3{
+    background-image: linear-gradient(0deg,rgba(204,156,92,0.7),rgba(204,156,92,0.9)),url('Dinner_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.middle{
+    font-size: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 20px;
+    border-bottom:1px dotted black;
+
+}
+
+.color{
+ color: white;
+ padding-right: 86px;
+ margin-top: 10px;
+
+
+ 
+}
+
+.price{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 0.5rem 2rem 1rem 0.8rem;;
+    color: white;
+}
+.dotted{
+    align-items: left;
+    padding: 0.5;
+}
+
+
+
+.text-align{
+   text-align: center;
+   padding: 2.5px;
+}
+.customer-img{
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid #e4e4e4;
+    padding: 0.4rem;
+
+}
+.customer-name {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ margin-top: 1.5px;
+ color: #deb887;
+}
+
+.customer-lorem{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    line-height:25px ;
+}
+
+.bound{
+    width: 23%;
+    height: 30%;
+    transition: all linear 1s;
+    text-align: center;
+    padding: 0;
+}
+
+@media screen  and(max-width:900px){
+    .bound{
+        width: 20%;
+        height: 23%;
+    }
+}
+.Gallerys:hover{
+    transform:scale(1.1) ;
+    transition:0.5s;
+}
+
+#p1{
+    margin-top: 50px;
+}
+
+.ro-data{
+    text-align: center;
+
+}
+
+.ro-data-color{
+    background-color: #deb887;
+}
+.color-heading{
+    color: white;
+}
+
+.footer{
+    background-color: rgb(47, 43, 43);
+    color: white;
+}
+
+.fooder-heading{
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.underline-right{
+    font-size: 5px;
+    margin-left: 50px;
+    margin-top: -7px;
+    color: #deb887;
+
+}
+
+.footer-para{
+    margin-left: 50px;
+    font-size: 10px;
+
+}
+
+.footer-close{
+    font-size: 10px;
+    margin-left: 50px;
+}
+
+.footer-open{
+    font-size: 9px;
+    margin-left: 50px;
+
+}
+
+.email{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    margin-left: 50px;
+    border: none;
+    width: 72%;
+    
+   
+}
+
+
+.submit {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 72%;
+   font-size: 13px;
+   margin-left: 50px;
+   background-color: #d0a772;
+   color: #fff;
+   line-height: 25px;
+   padding: 5px;
+   border: none; 
+}
+
+.copy{
+    background-color: #d0a772;
+    
+}
+
+
+
+.copy-2{
+    margin-top: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: white;
+ 
+}
+
+.copy-3{
+    background-color: black;
+}
+
+
+
+#pin{
+    text-align: center;
+    margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+
